@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Lily Script One","Poppins", serif; */
+    /* max-width: 100%; */
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    color: pink;
+    background-color: deeppink;
+    font-family: "Lily Script One","Poppins", serif;
+    /* position: sticky; */
+}
+
+.image_1 {
+    /* background-color: #DBAEC8; */
+    background-color: seashell;
+    margin-bottom: 0;
+
+}
+
+.img_measure {
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+    min-height: 60vh;
+    margin-right: 50%;
+
+
+}
+
+.image_2 {
+    margin-top: 0;
+    padding-top: 0;
+    background-color: seashell;
+}
+
+.img_band_size {
+    width: 50%;
+    min-height: 60vh;
+    margin-left: 50%;
+}
+
+.form {
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background-color: deeppink;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0,1);
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form input {
+    width: 300px;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+
+
+.form form {
+    display: grid;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+#bandsize {
+    margin-bottom: 20px;
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: #6C866B;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    color: pink;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: hotpink;
+    font-family: "Lily Script One","Poppins", serif;
+}
+
+/* .copyright img {
+    padding-top: 20px;
+} */
+
+#result {
+    padding: 20px 0 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* .copyright {
+    width: 100%;
+    display: flex;
+    
+}
+
+footer {
+    width: 100%;
+
+} */
+
+@media (width <= 960px) {
+    .img_measure {
+        max-width: 100%;
+        margin-right: 0;
+    
+    
+    }
+
+    .img_band_size {
+        width: 100%;
+        margin-left: 0;
+
+    }
+}

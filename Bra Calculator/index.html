@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Bra cup size calculator" content="Calculate and know your cup size">
+    <link rel="stylesheet" href="bra.css" />
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <title>Bra Size Calculator</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Bra Size Calculator</h1>
+    </header>
+
+    <section class="images">
+      <div class="image_1">
+        <img
+          src="assets/measure.webp"
+          alt="Measuring Image"
+          class="img_measure"
+        />
+      </div>
+
+      <div class="image_2">
+        <img src="assets/band size.png" alt="" class="img_band_size" />
+      </div>
+    </section>
+
+    <div class="calculator">
+      <form
+        action=""
+        class="form"
+        id="form"
+        style="font-family: Georgia, 'Times New Roman', Times, serif"
+      >
+        <div>
+          <label for="bandsize">Input your band size (inches)</label> <br />
+          <input type="number" name="bandsize" id="bandsize" required />
+        </div>
+
+        <div>
+          <label for="bustsize">Input your bust size (inches)</label> <br />
+          <input type="number" name="bustsize" id="bustsize" required />
+        </div>
+
+        <button type="submit" onclick="calculateCupSize" class="btn">
+          Calculate cup size
+        </button>
+      </form>
+      <div id="result"></div>
+    </div>
+    <!-- <div id="result"></div> -->
+
+    <script src="bra.js"></script>
+  </body>
+
+  <footer>
+    <div class="copyright">
+      <p>
+        <img src="assets/copyright.svg" alt="" class="cp_image" />2025 Wendy
+        Kalu
+      </p>
+    </div>
+  </footer>
+</html>
