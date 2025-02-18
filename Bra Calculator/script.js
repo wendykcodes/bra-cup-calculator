@@ -74,6 +74,6 @@ document.getElementById("form").addEventListener("submit", function(event) {
 
     // Display the result
     const braSize = `${bandSize}${cupSize}`;
-    document.getElementById("result").textContent = `Your bra size is: ${braSize}`;
-    alert(`Your bra size is: ${braSize}`);
+    document.getElementById("result").textContent = `Bra-vo! Your bra size is: ${braSize}`;
+    alert(`Bra-vo! Your bra size is: ${braSize}`);
 });
