@@ -122,6 +122,7 @@ body {
     padding-bottom: 10px;
     color: hotpink;
     font-family: "Lily Script One","Poppins", serif;
+    background-color: lavenderblush;
 }
 
 /* .copyright img {
@@ -133,6 +134,39 @@ body {
     padding: 20px 0 ;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.cup-descriptions {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: seashell;
+}
+
+.descriptions {
+    text-align: center;
+    font-size: 17px;
+}
+
+.myths {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: seashell;
+    padding-bottom: 20px;
+}
+
+.myths h2 {
+    text-align: center;
+}
+
+.myth-1, .myth-2, .myth-3, .myth-4, .myth-5 {
+    padding-top: 20px;
+}
+
+.myths h3{
+    padding-bottom: 10px;
+}
+
 
 @media (width <= 960px) {
     .main-container {
